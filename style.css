@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --black: #35393c;
+    --onyx: #393e41;
+    --davy: #565554;
+    --white-smoke: #EFF1ED;
+    --dim-gray: #746D75;
+}
+.page {
+    font-family: 'Inter', sans-serif;
+    padding-top: 0.5rem;
+    color: var(--white-smoke);
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 100%;
+    background-color: var(--onyx);
+    display: flex;
+}
+.site-link {
+    padding: 1rem;
+}
+.bio {
+    margin-left: 0.4rem;
+}
+.site-link a {
+    text-decoration: none;
+    color: beige;
+}
+.left-section {
+    background-color: var(--black);
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.right-section {
+    width: 100%;
+}
+nav {
+    width: 100%;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+nav ul li a {
+    padding: 0.75rem 1rem;
+}
+nav ul li:hover a {
+    background-color: var(--dim-gray);
+    transition: 100ms ease-in;
+    border-radius: 0.2rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: beige;
+}
+.greetings {
+    font-size: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    color: beige;
+}
+.profile {
+    position: absolute;
+    bottom: 0;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    color: beige;
+    padding: 1rem;
+}
